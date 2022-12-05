@@ -1,0 +1,12 @@
+footer{
+    padding-bottom: 2rem;
+    background: #ff014d;
+}
+.ref{
+    text-decoration: none;
+    color: yellow;
+}
+.icono{
+    font-size: 2.5rem;
+    color: black;
+}

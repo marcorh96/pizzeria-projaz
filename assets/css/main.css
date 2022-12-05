@@ -1,0 +1,15 @@
+.container{
+    padding-top: 5.4rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home-title{
+    margin-top: 1rem;
+    color: #ff014d;
+    font-size: 2rem;
+}
+.aboutus__title{
+    color: #fc1616;
+    font-size: 1.8rem;
+}

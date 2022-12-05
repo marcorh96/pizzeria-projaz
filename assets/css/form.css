@@ -1,0 +1,95 @@
+.order__container{
+    border-style: solid;
+    width: 50vw;
+    height: 45rem;
+    margin: 0 auto;
+    border-radius: 10%;
+    border-color: #970101;
+    margin-top: 1rem;
+}
+.form{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.form__container{
+    display: grid;
+    grid-template-columns: 30% 50%;
+    padding-top: 1.5rem;
+}
+
+.form__data{
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+}
+.form__input{
+    margin-left: 5%;
+}
+.form__checkbox__group{
+    display: grid;
+    grid-template-columns: auto;
+}
+.form__label{
+    font-size: 1.2rem;
+    margin-top: .8rem;
+    font-weight: 500;
+}
+
+.form__label-pizza{
+    margin-top: .8rem;
+    font-weight: 500;
+}
+.form__extra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.checkbox__selection{
+    text-align: center;
+}
+.form__textarea{
+    margin-top: .5rem;
+    width: 30rem;
+    height: 5rem;
+    resize: none;
+    
+}
+.form__textarea::placeholder{
+    text-align: center;
+}
+ 
+@media  screen and (max-width: 992px){
+    
+    .order__container{
+        width: 70vw;
+    }
+}
+
+@media  screen and (max-width: 480px){
+    .order__container{
+        width: 95vw;
+        height: 50rem;
+    }
+    
+    .form__container{
+        grid-template-columns: 40% 50%;
+    }
+    .form__data{
+        width: 45vw;
+    }
+    .form__label{
+        width: 50vw;
+    }
+    .form__textarea{
+        width: 20rem;
+    }
+}
+@media  screen and (max-width: 320px){
+    .order__container{
+        height: 140vh;
+    }
+    .form__textarea{
+        width: 15rem;
+    }
+}

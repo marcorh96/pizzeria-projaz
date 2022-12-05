@@ -1,0 +1,91 @@
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 5rem;
+}
+.menu__pizza{
+    width: 30%;
+    margin: 0 1.5%;
+}
+.menu__pizza__border{
+    width: 25vw;
+    height: 31rem;
+    border-style: solid;
+    border-radius: 10%;
+    margin: 2vh auto;
+    padding: 1rem;
+    text-align: center;
+    word-wrap: break-word;
+    border-color: #970101;
+}
+
+.menu__pizza__img{
+    width: 10vw;
+    height: 8vw;
+}
+.menu__pizza__title{
+    font-size: 3rem;
+    color: #fc1616;
+    
+}
+.menu__pizza__description{
+    font-size: 1rem;
+}
+.menu__pizza__button{
+    margin: 2rem 0;
+    padding: 2rem 3rem;
+    background: #ff014d;
+    color: white;
+    border-radius: 15%;
+    transition: .08s ease-in-out;
+}
+/*.menu__pizza__button::first-line{
+    font-size: 22px;
+}*/
+.menu__pizza__button:active{
+    border: 3px solid #fc3c3c;
+    font-size: .7rem;
+}
+.menu__pizza__button:hover{
+    border: 3px solid #fc3c3c;
+}
+@media  screen and (max-width: 1280px){
+    .menu__pizza__border{
+        height: 27rem;
+    }
+}
+
+@media  screen and (max-width: 992px) {
+    .menu{
+        flex-direction: column;
+    }
+    .menu__pizza{
+        width: 95%;
+    }
+    .menu__pizza__border{
+        width: 80%;
+        height: 30rem;
+        margin: 1.2rem auto;
+    }
+    .menu__pizza__img{
+        width: 50%;
+        height: 30%;
+    }
+    
+}
+@media  screen and (max-width: 768px){
+    .menu__pizza__button{
+        padding: 2rem 2.5rem;
+    }
+}
+@media  screen and (max-width: 320px){
+    .menu__pizza__border{
+        height: 35rem;
+    }
+}   
+@media  screen and (max-width: 280px){
+    .menu__pizza__border{
+        height: 40rem;
+    }
+}
